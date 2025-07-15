@@ -21,17 +21,17 @@ Clone este repositório:
 git clone https://github.com/joaolira-dev/evoluir-fullstack.git
 cd evoluir-fullstack
 ```
-
 Execute o projeto com Docker Compose
-na raiz do diretorio rode o comando:
+Na raiz do diretório, rode o comando:
 
-```bash
+````
+bash
 docker-compose up --build
-```
-
+`````
 Acesse a aplicação:
 
 Front-end: http://localhost:5173
+
 Swagger (API): http://localhost:8080/swagger-ui/index.html
 
 🚀 Principais Funcionalidades
@@ -67,7 +67,7 @@ JUnit 5 + Mockito (Testes unitários)
 Front-end:
 React.js
 
-React Router Dom
+React Router DOM
 
 Tailwind CSS
 
@@ -87,4 +87,3 @@ Mais funcionalidades e telas no front-end
 Lógicas adicionais e novos fluxos no back-end
 
 Paginação, autenticação e melhorias na experiência do usuário
-
