@@ -35,7 +35,7 @@ Acesse a aplicação:
 - Clientes bloqueados têm seu limite de crédito zerado
 
 ## Scripts SQL
-### 📚✅ Scripts SQL pedidos no desafio estão dentro da pasta docs no back-end
+### 📚✅ Scripts SQL pedidos no desafio estão dentro da pasta /docs no back-end
 
 
 
