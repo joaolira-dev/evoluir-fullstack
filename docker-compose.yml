@@ -1,0 +1,44 @@
+services:
+  frontend:
+    image: node:20-bullseye
+    container_name: frontend
+    working_dir: /app
+    volumes:
+      - ./evoluir-frontend:/app
+    command: sh -c "npm install && npm run start -- --host 0.0.0.0 --port 5173"
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    networks:
+      - app-net
+
+  backend:
+    image: joaoliradev/evoluir-backend:latest
+    container_name: backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql
+    networks:
+      - app-net
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: evoluir_db
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - app-net
+
+volumes:
+  mysql-data:
+
+networks:
+  app-net:
+    driver: bridge
