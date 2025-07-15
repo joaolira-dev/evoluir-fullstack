@@ -20,6 +20,9 @@ Execute o projeto com Docker Compose na raiz do diretorio:
 ```bash
 docker-compose up --build
 ```
+### ⚠️ Observação
+- Se o back-end não funcionar de primeira, é so startar ele novamente pelo Docker Desktop.
+
 Acesse a aplicação:
 - Front-end: http://localhost:5173
 - Swagger (API): http://localhost:8080/swagger-ui/index.html
