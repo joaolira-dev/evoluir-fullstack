@@ -37,6 +37,8 @@ Acesse a aplicação:
 ## Scripts SQL
 ### 📚✅ Scripts SQL pedidos no desafio estão dentro da pasta docs no back-end
 
+
+
 ## 🛠️ Tecnologias Utilizadas
 **Back-end:**
 - Java 21
