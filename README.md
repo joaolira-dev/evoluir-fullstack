@@ -61,10 +61,11 @@ Cobertura de serviços com JUnit 5 e Mockito
 ## 📚 Documentação da API
 Disponível via Swagger: http://localhost:8080/swagger-ui/index.html
 
-- ### Dockerfile implementado no back-end
-- ### Docker compose implementado na aplicação e banco
+- ## Dockerfile implementado no back-end
+- ## Docker compose implementado na aplicação e banco
 
 ## 🧠 O que eu implementaria se tivesse mais tempo:
 - Mais funcionalidades e telas no front-end
 - Lógicas adicionais e novos fluxos no back-end
-- Paginação, autenticação e melhorias na experiência do usuário
+- Cadastro do cliente com autenticação JWT
+
